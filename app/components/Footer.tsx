@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className="bg-black-c text-white-c flex flex-col items-center relative gap-10">
+		<footer className="bg-black-c text-white-c flex flex-col items-center relative gap-10 pb-15">
 			<section className=" bg-peach-c max-w-[85%] flex items-center flex-col justify-center text-center gap-5 px-5 py-14 rounded-2xl min-h-[380px] ">
 				<h2 className="text-3xl font-bold">Let's talk about your project</h2>
 				<p className="text-sm">
