@@ -14,13 +14,40 @@ const Footer = () => {
 				</button>
 			</section>
 			<section className="flex flex-col items-center justify-center gap-5 w-full">
-				<img src="assets/shared/desktop/logo-light.png" alt="" className="w-52"/>
+				<img
+					src="assets/shared/desktop/logo-light.png"
+					alt=""
+					className="w-52"
+				/>
 				<hr className="border-[1px] border-darkGray-c w-[90%]" />
 				<ul className="text-center">
 					<li className="uppercase py-3">Our Company</li>
 					<li className="uppercase py-3">Locations</li>
 					<li className="uppercase py-3">Contact</li>
 				</ul>
+			</section>
+			<section className="text-center">
+				<h3 className="font-bold">Designo Central Office</h3>
+				<p className="text-sm">
+					3886 Wellington Street
+					<br />
+					Toronto, Ontario M9C 3J5
+				</p>
+			</section>
+			<section className="text-center">
+				<h3 className="font-bold">Contact Us (Central Office)</h3>
+				<p className="text-sm">
+					P: +1 253-863-8967
+					<br />
+					M: contact@designo.co
+				</p>
+			</section>
+			<section className="flex items-center gap-5">
+				<img src="assets/shared/desktop/icon-facebook.svg" alt="facebook icon" />
+				<img src="assets/shared/desktop/icon-youtube.svg" alt="youtube icon" />
+				<img src="assets/shared/desktop/icon-twitter.svg" alt="twitter icon" />
+				<img src="assets/shared/desktop/icon-pinterest.svg" alt="pinterest icon" />
+				<img src="assets/shared/desktop/icon-instagram.svg" alt="instagram icon" />
 			</section>
 		</footer>
 	);
