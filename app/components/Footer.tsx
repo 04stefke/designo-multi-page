@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className="bg-black-c text-white-c flex flex-col items-center relative gap-10 pb-15">
-			<section className=" bg-peach-c max-w-[85%] flex items-center flex-col justify-center text-center gap-5 px-5 py-14 rounded-2xl min-h-[380px] ">
+		<footer className="bg-black-c text-white-c flex flex-col items-center gap-10 pb-15 relative">
+			<section className="absolute top-[-200px] bg-peach-c max-w-[85%] flex items-center flex-col justify-center text-center gap-5 px-5 py-14 rounded-2xl min-h-[380px] ">
 				<h2 className="text-3xl font-bold">Let's talk about your project</h2>
 				<p className="text-sm">
 					Ready to take it to the new level? Contact us today and find out how
@@ -13,7 +13,7 @@ const Footer = () => {
 					GET IN TOUCH
 				</button>
 			</section>
-			<section className="flex flex-col items-center justify-center gap-5 w-full">
+			<section className="flex flex-col items-center justify-center gap-5 w-full pt-96">
 				<img
 					src="assets/shared/desktop/logo-light.png"
 					alt=""
@@ -42,7 +42,7 @@ const Footer = () => {
 					M: contact@designo.co
 				</p>
 			</section>
-			<section className="flex items-center gap-5">
+			<section className="flex items-center gap-5 flex-wrap justify-center">
 				<img src="assets/shared/desktop/icon-facebook.svg" alt="facebook icon" />
 				<img src="assets/shared/desktop/icon-youtube.svg" alt="youtube icon" />
 				<img src="assets/shared/desktop/icon-twitter.svg" alt="twitter icon" />
