@@ -34,10 +34,10 @@ body {
 }
 
 .footer-bg-image {
-	background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg") center
-		no-repeat;
+	background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg")
+		center no-repeat;
 }
 .homePage-bg-image {
-	background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg") center
+	background-image: url("/assets/home/desktop/bg-pattern-hero-home.svg") center
 		no-repeat;
 }

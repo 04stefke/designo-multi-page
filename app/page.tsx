@@ -1,7 +1,7 @@
 export default function Home() {
 	return (
 		<main>
-			<section className="bg-peach-c text-white flex flex-col items-center justify-center gap-10 homePage-bg-image ">
+			<section className="bg-peach-c text-white flex flex-col items-center gap-10 homePage-bg-image pt-20 relative h-[650px] overflow-hidden">
 				<div className=" flex flex-col items-center justify-center text-center gap-5 max-w-[90%]">
 					<h2 className="text-2xl font-bold">
 						Award-winning custom designs and digital branding solutions
@@ -15,7 +15,7 @@ export default function Home() {
 						LEARN MORE
 					</button>
 				</div>
-				<img src="assets/home/desktop/image-hero-phone.png" alt="phone image" />
+				<img src="assets/home/desktop/image-hero-phone.png" alt="phone image" className="absolute bottom-[-220px] " />
 			</section>
 		</main>
 	);
