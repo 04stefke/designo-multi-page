@@ -45,3 +45,19 @@ body {
 	background-image: url("/assets/home/desktop/bg-pattern-hero-home.svg") center
 		no-repeat;
 }
+.homePage-graphicDesign-image {
+	background-image: url("/assets/home/desktop/image-graphic-design.jpg") center
+		no-repeat;
+}
+.homePage-webDesignSml-image {
+	background-image: url("/assets/home/desktop/image-web-design-small.jpg")
+		center no-repeat;
+}
+.homePage-webDesignLrg-image {
+	background-image: url("/assets/home/desktop/image-web-design-large.jpg")
+		center no-repeat;
+}
+.homePage-appDesign-image {
+	background-image: url("/assets/home/desktop/image-app-design.jpg") center
+		no-repeat;
+}
