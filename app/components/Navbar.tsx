@@ -4,8 +4,8 @@ import React, { useState } from "react";
 const Navbar = () => {
 	const [dropdown, setDropdown] = useState(false);
 	return (
-		<header className="px-5 py-10 flex items-center justify-between ">
-			<img src="assets/shared/desktop/logo-dark.png" alt="" className="w-44" />
+		<header className="w-full px-5 py-10 flex items-center justify-between md:max-w-[90%] ">
+			<img src="assets/shared/desktop/logo-dark.png" alt="logo" className="w-44" />
 			<nav>
 				<ul className="hidden md:flex items-center gap-5 uppercase">
 					<li className="p-3 lg:cursor-pointer">Our Company</li>

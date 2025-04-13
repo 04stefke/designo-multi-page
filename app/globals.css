@@ -11,7 +11,7 @@
 
 @theme inline {
 	--breakpoint-xs: 20rem;
-	--breakpoint-2xs: 27rem;
+	--breakpoint-2xs: 25rem;
 	--breakpoint-3xs: 32rem;
 	--breakpoint-xxl: 83rem;
 	--color-background: var(--background);
