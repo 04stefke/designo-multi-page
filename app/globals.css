@@ -28,7 +28,7 @@
 
 /* @media (prefers-color-scheme: dark) {
 	:root {
-		--background: #0a0a0a;
+	--background: #0a0a0a;
 		--foreground: #ededed;
 	}
 } */
@@ -38,26 +38,38 @@ body {
 }
 
 .footer-bg-image {
-	background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg")
-		center no-repeat;
+	background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .homePage-bg-image {
-	background-image: url("/assets/home/desktop/bg-pattern-hero-home.svg") center
-		no-repeat;
+	background-image: url("/assets/home/desktop/bg-pattern-hero-home.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .homePage-graphicDesign-image {
-	background-image: url("/assets/home/desktop/image-graphic-design.jpg") center
-		no-repeat;
+	background-image: url("/assets/home/desktop/image-graphic-design.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .homePage-webDesignSml-image {
-	background-image: url("/assets/home/desktop/image-web-design-small.jpg")
-		center no-repeat;
+	background-image: url("/assets/home/desktop/image-web-design-small.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .homePage-webDesignLrg-image {
-	background-image: url("/assets/home/desktop/image-web-design-large.jpg")
-		center no-repeat;
+	background-image: url("/assets/home/desktop/image-web-design-large.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .homePage-appDesign-image {
-	background-image: url("/assets/home/desktop/image-app-design.jpg") center
-		no-repeat;
+	background-image: url("/assets/home/desktop/image-app-design.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
