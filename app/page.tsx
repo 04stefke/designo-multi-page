@@ -23,16 +23,16 @@ export default function Home() {
 					/>
 				</div>
 			</section>
-			<section className="flex flex-col items-center justify-center gap-10">
-				<article className="">
+			<section className="flex flex-col items-center justify-center gap-10 text-center">
+				<article className="homePage-webDesignSml-image lg:homePage-webDesignLrg-image ">
 					<h2>WEB DESIGN</h2>
 					<p>VIEW PROJECTS</p>
 				</article>
-				<article className="">
+				<article className="homePage-appDesign-image ">
 					<h2>APP DESIGN</h2>
 					<p>VIEW PROJECTS</p>
 				</article>
-				<article className="">
+				<article className="homePage-graphicDesign-image ">
 					<h2>GRAPHIC DESIGN</h2>
 					<p>VIEW PROJECTS</p>
 				</article>
