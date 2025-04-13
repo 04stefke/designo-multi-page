@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  	--peach-c: #e7816b;
+	--peach-c: #e7816b;
 	--black-c: #1d1c1e;
 	--white-c: #fff;
 	--lightPeach-c: #ffad9b;
@@ -30,6 +30,14 @@
 } */
 
 body {
-
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-bg-image {
+	background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg") center
+		no-repeat;
+}
+.homePage-bg-image {
+	background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg") center
+		no-repeat;
 }

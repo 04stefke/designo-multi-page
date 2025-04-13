@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
 	return (
 		<footer className="bg-black-c text-white-c flex flex-col items-center gap-10 pb-15 md:pb-24 relative ">
-			<section className="absolute top-[-100px] md:top-[-200px] bg-peach-c bg-[url('/assets/shared/desktop/bg-pattern-call-to-action.svg')] bg-center bg-no-repeat w-[90%] lg:w-[80%] 2xl:w-[65%] px-5 py-14 lg:px-14 lg:py-20 rounded-2xl  ">
+			<section className="absolute top-[-100px] md:top-[-200px] bg-peach-c footer-bg-image w-[90%] lg:w-[80%] 2xl:w-[65%] px-5 py-14 lg:px-14 lg:py-20 rounded-2xl  ">
 				<div className="flex items-center flex-col lg:flex-row justify-between  gap-5 ">
 					<div className="flex flex-col items-center lg:items-start justify-center gap-5 lg:max-w-[500px] text-center md:text-start">
 						<h2 className="text-3xl lg:text-4xl font-bold">
