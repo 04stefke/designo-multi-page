@@ -13,6 +13,7 @@
 	--breakpoint-xs: 20rem;
 	--breakpoint-2xs: 27rem;
 	--breakpoint-3xs: 32rem;
+	--breakpoint-xxl: 83rem;
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
 	--font-sans: var(--font-geist-sans);
