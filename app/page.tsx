@@ -23,18 +23,27 @@ export default function Home() {
 					/>
 				</div>
 			</section>
-			<section className="flex flex-col items-center justify-center gap-10 text-center">
-				<article className="homePage-webDesignSml-image lg:homePage-webDesignLrg-image ">
-					<h2>WEB DESIGN</h2>
-					<p>VIEW PROJECTS</p>
+			<section className="flex flex-col items-center justify-center gap-10 text-center w-full">
+				<article className="homePage-webDesignSml-image lg:homePage-webDesignLrg-image w-[90%] aspect-[1/0.8] text-white flex flex-col items-center justify-center rounded-3xl">
+					<h2 className="font-bold text-xl ">WEB DESIGN</h2>
+					<div className="flex items-center justify-center gap-3">
+						<p className="text-sm ">VIEW PROJECTS</p>
+						<a href="" className="text-peach-c font-bold text-sm">&#62;</a>
+					</div>
 				</article>
-				<article className="homePage-appDesign-image ">
-					<h2>APP DESIGN</h2>
-					<p>VIEW PROJECTS</p>
+				<article className="homePage-appDesign-image w-[90%] aspect-[1/0.8] text-white flex flex-col items-center justify-center rounded-3xl">
+					<h2 className="font-bold text-xl">APP DESIGN</h2>
+					<div className="flex items-center justify-center gap-3">
+						<p className="text-sm ">VIEW PROJECTS</p>
+						<a href="" className="text-peach-c font-bold text-sm">&#62;</a>
+					</div>
 				</article>
-				<article className="homePage-graphicDesign-image ">
-					<h2>GRAPHIC DESIGN</h2>
-					<p>VIEW PROJECTS</p>
+				<article className="homePage-graphicDesign-image w-[90%] aspect-[1/0.8] text-white flex flex-col items-center justify-center rounded-3xl">
+					<h2 className="font-bold text-xl">GRAPHIC DESIGN</h2>
+					<div className="flex items-center justify-center gap-3">
+						<p className="text-sm ">VIEW PROJECTS</p>
+						<a href="" className="text-peach-c font-bold text-sm ">&#62;</a>
+					</div>
 				</article>
 			</section>
 		</main>
